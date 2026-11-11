@@ -4,6 +4,9 @@
         <title>Riot Login</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@1..144,1..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -11,12 +14,14 @@
         </header>
         <main class="container_principal">
             <div class="login_container">
-                <div class="logo_container">
-                    <img src="assets/img/riot-logo.png" alt="logo" class="logo">
-                    <span>SIGN IN</span>
-                    <input type="text" id="usuario" name="usuario" placeholder="USER" required class="user_input">
-                    <input type="password" id="senha" name="senha" placeholder="PASSWORD" required class="password_input" >
-                </div>
+                    <div class="logo_container">
+                        <img src="assets/img/riot-logo.png" alt="logo" class="logo">
+                        <span>SIGN IN</span>
+                    </div>
+                    <div class="input_container">
+                        <input type="text" id="usuario" name="usuario" placeholder="USER" required class="user_input">
+                        <input type="password" id="senha" name="senha" placeholder="PASSWORD" required class="password_input">
+                    </div>
             
                 <div class="senha_container">
                     <input type="checkbox" id="caixa_selecao" name="caixa_selecao">
