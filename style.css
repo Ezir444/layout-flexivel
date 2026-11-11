@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    font-family: "Inter", "sans-serif";
+}
+
+.logo {
+    width: 80px;
+}
+body {
+    background-image: url("assets/img/login-riot-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container_principal {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+}
+
+.senha {
+    display: flex;
+    gap: 16px;
+}
+
+.sign_in {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.button_sign {
+    height: 30px;
+    width: 40px;
+}
+
+.icon {
+    display: flex;
+    gap: 16px;
+}
+.icones {
+    width: 28px;
+    background-color: white;
+}
